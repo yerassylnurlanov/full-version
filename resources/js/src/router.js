@@ -46,12 +46,12 @@ const router = new Router({
         // =============================================================================
                 {
                     path: '/',
-                    redirect: '/dashboard/analytics'
+                    redirect: '/'
                 },
                 {
-                    path: '/dashboard/analytics',
-                    name: 'dashboard-analytics',
-                    component: () => import('./views/DashboardAnalytics.vue'),
+                    path: '/',
+                    name: 'main',
+                    component: () => import('./views/mainPage.vue'),
                     meta: {
                         rule: 'editor',
                     }

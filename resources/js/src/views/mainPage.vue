@@ -401,6 +401,7 @@
     import { swiper, swiperSlide } from 'vue-awesome-swiper'
 
     export default {
+        name:"main",
         data() {
             return {
                 name:"",
