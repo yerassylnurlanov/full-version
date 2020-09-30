@@ -27,7 +27,7 @@ export default [
         slug:"Home",
     },
     {
-        url: '/dashboard/analytics',
+        url: '/',
         name: "Главная",
         tagColor: "warning",
         icon: "HomeIcon",

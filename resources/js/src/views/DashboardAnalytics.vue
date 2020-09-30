@@ -1,5 +1,3 @@
-
-
 <template>
     <div id="main-page">
         <div class="vx-row carousel vx-card">
@@ -13,7 +11,7 @@
                         <div class="subtitle text-center font-semibold mt-5" data-swiper-parallax="-200">
                             <h4 class="text-white">Это уверенность в настоящем, дающая свободу созидать будущее.</h4>
                         </div>
-<!--                        <div class="mt-5 text-center"><vs-button color="primary" type="filled">Подробнее</vs-button></div>-->
+                        <!--                        <div class="mt-5 text-center"><vs-button color="primary" type="filled">Подробнее</vs-button></div>-->
                     </div>
                     <img class="responsive" style="background: rgb(195, 195, 195);" src="@assets/images/slider/Education.jpg" alt="banner">
                 </swiper-slide>
@@ -25,7 +23,7 @@
                         <div class="subtitle text-center font-semibold mt-5" data-swiper-parallax="-200">
                             <h4 class="text-white">Это уверенность в настоящем, дающая свободу созидать будущее.</h4>
                         </div>
-<!--                        <div class="mt-5 text-center"><vs-button color="primary" type="filled">Подробнее</vs-button></div>-->
+                        <!--                        <div class="mt-5 text-center"><vs-button color="primary" type="filled">Подробнее</vs-button></div>-->
                     </div>
                     <img class="responsive" style="background: rgb(195, 195, 195);" src="@assets/images/slider/women.jpg" alt="banner">
                 </swiper-slide>
@@ -37,7 +35,7 @@
                         <div class="subtitle text-center font-semibold mt-5" data-swiper-parallax="-200">
                             <h4 class="text-white">Это уверенность в настоящем, дающая свободу созидать будущее.</h4>
                         </div>
-<!--                        <div class="mt-5 text-center"><vs-button color="primary" type="filled">Подробнее</vs-button></div>-->
+                        <!--                        <div class="mt-5 text-center"><vs-button color="primary" type="filled">Подробнее</vs-button></div>-->
                     </div>
                     <img class="responsive" style="background: rgb(195, 195, 195);" src="@assets/images/slider/women.jpg" alt="banner">
                 </swiper-slide>
@@ -178,48 +176,48 @@
         </div>
         <div class="vx-row advantages mt-10 justify-items-center ">
             <vs-divider position="left" color="primary">
-                 <span class="text-3xl">Наши преимущества</span>
+                <span class="text-3xl">Наши преимущества</span>
             </vs-divider>
             <div class="vx-row w-full cards justify-center">
 
-            <div class="vx-col w-full sm:w-1/2 lg:w-1/3 mb-base">
-                <vx-card class="p-2">
-                    <vs-avatar class="mx-auto mb-6 block" style="background:none;" size="80px" :src="card_4.userImg" />
-                    <div class="text-center">
-                        <h3>{{card_4.title}}</h3>
-                    </div>
+                <div class="vx-col w-full sm:w-1/2 lg:w-1/3 mb-base">
+                    <vx-card class="p-2">
+                        <vs-avatar class="mx-auto mb-6 block" style="background:none;" size="80px" :src="card_4.userImg" />
+                        <div class="text-center">
+                            <h3>{{card_4.title}}</h3>
+                        </div>
 
-                    <vs-divider />
+                        <vs-divider />
                         <p class="text-grey">{{card_4.footer_text}}</p>
-                </vx-card>
+                    </vx-card>
+                </div>
+
+                <div class="vx-col w-full sm:w-1/2 lg:w-1/3 mb-base">
+                    <vx-card class="p-2">
+                        <vs-avatar class="mx-auto mb-6 block" style="background:none;" size="80px" :src="card_5.userImg" />
+                        <div class="text-center">
+                            <h3>{{card_5.title}}</h3>
+                        </div>
+
+                        <vs-divider />
+                        <p class="text-grey">{{card_5.footer_text}}</p>
+                    </vx-card>
+                </div>
+
+                <div class="vx-col w-full sm:w-1/2 lg:w-1/3 mb-base">
+                    <vx-card class="p-2">
+                        <vs-avatar class="mx-auto mb-6 block" style="background:none;" size="80px" :src="card_6.userImg" />
+                        <div class="text-center">
+                            <h3>{{card_6.title}}</h3>
+                        </div>
+
+                        <vs-divider />
+                        <p class="text-grey">{{card_6.footer_text}}</p>
+                    </vx-card>
+                </div>
+
+
             </div>
-
-            <div class="vx-col w-full sm:w-1/2 lg:w-1/3 mb-base">
-                <vx-card class="p-2">
-                    <vs-avatar class="mx-auto mb-6 block" style="background:none;" size="80px" :src="card_5.userImg" />
-                    <div class="text-center">
-                        <h3>{{card_5.title}}</h3>
-                    </div>
-
-                    <vs-divider />
-                    <p class="text-grey">{{card_5.footer_text}}</p>
-                </vx-card>
-            </div>
-
-            <div class="vx-col w-full sm:w-1/2 lg:w-1/3 mb-base">
-                <vx-card class="p-2">
-                    <vs-avatar class="mx-auto mb-6 block" style="background:none;" size="80px" :src="card_6.userImg" />
-                    <div class="text-center">
-                        <h3>{{card_6.title}}</h3>
-                    </div>
-
-                    <vs-divider />
-                    <p class="text-grey">{{card_6.footer_text}}</p>
-                </vx-card>
-            </div>
-
-
-        </div>
         </div>
 
         <div class="vx-row teaser mt-10 vx-card">
@@ -267,32 +265,6 @@
                 </div>
             </div>
         </div>
-        <div class="news mt-10">
-            <vs-divider position="left" color="primary">
-                <span class="text-3xl">Новости</span>
-            </vs-divider>
-            <vx-card class="carousel-example">
-                <div class="swiper-inner">
-                    <!-- swiper -->
-                    <swiper :options="newsSwiper" :dir="$vs.rtl ? 'rtl' : 'ltr'" :key="$vs.rtl">
-                        <swiper-slide>
-                            <img src="@assets/images/slider/Education.jpg" class=" responsive" alt="teaser image">
-                        </swiper-slide>
-                        <swiper-slide>
-                            <img src="@assets/images/slider/Education.jpg" class=" responsive" alt="teaser image">
-                        </swiper-slide>
-                        <swiper-slide>
-                            <img src="@assets/images/slider/Education.jpg" class=" responsive" alt="teaser image">
-                        </swiper-slide>
-                        <swiper-slide>
-                            <img src="@assets/images/slider/Education.jpg" class=" responsive" alt="teaser image">
-                        </swiper-slide>
-
-                        <div class="swiper-pagination" slot="pagination"></div>
-                    </swiper>
-                </div>
-            </vx-card>
-        </div>
         <div class="smi mt-10 vx-row">
             <vs-divider position="left" color="primary">
                 <span class="text-3xl">СМИ о НАС</span>
@@ -337,6 +309,42 @@
             </div>
 
         </div>
+        <div class="news mt-10">
+            <vs-divider position="left" color="primary">
+                <span class="text-3xl">Новости</span>
+            </vs-divider>
+            <vx-card class="carousel-example">
+                <div class="swiper-inner">
+                    <!-- swiper -->
+                    <swiper :options="newsSwiper" :dir="$vs.rtl ? 'rtl' : 'ltr'" :key="$vs.rtl">
+                        <swiper-slide class="flex">
+                            <img src="@assets/images/slider/Education.jpg" class=" responsive" alt="teaser image">
+                            <div class="info text-center w-1/2">
+                                <h1 class="mt-20">Смысл сайта</h1>
+                                <h5 class="mt-3">Смысл подтекста</h5>
+                                <p class="mt-3">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей. Текст генерируется абзацами случайным образом от двух до десяти предложений в абзаце, что позволяет сделать текст более привлекательным и живым для визуально-слухового восприятия.
+
+                                    По своей сути рыбатекст является альтернативой традиционному lorem ipsum, который вызывает у некторых людей недоумение при попытках прочитать рыбу текст.
+
+                                </p>
+                            </div>
+                        </swiper-slide>
+                        <swiper-slide>
+                            <img src="@assets/images/slider/Education.jpg" class=" responsive" alt="teaser image">
+                        </swiper-slide>
+                        <swiper-slide>
+                            <img src="@assets/images/slider/Education.jpg" class=" responsive" alt="teaser image">
+                        </swiper-slide>
+                        <swiper-slide>
+                            <img src="@assets/images/slider/Education.jpg" class=" responsive" alt="teaser image">
+                        </swiper-slide>
+
+                        <div class="swiper-pagination" slot="pagination"></div>
+                    </swiper>
+                </div>
+            </vx-card>
+        </div>
+
         <div class="blog mt-10 vx-row">
             <vs-divider position="left" color="primary">
                 <span class="text-3xl">Блог от Freedom Finance Life</span>
@@ -381,7 +389,7 @@
                 </div>
             </div>
             <div class="checker vx-row mt-5">
-                    <vs-checkbox v-model="checkBox1" ></vs-checkbox>
+                <vs-checkbox v-model="checkBox1" ></vs-checkbox>
                 <span>Правила обеспечения защиты персональных данных.<br>
                         Мы обязаны получить такое согласие в соответствии с законодательством Республики Казахстан о персональных данных.</span>
 
@@ -389,8 +397,6 @@
             <vs-button color="primary" class="mt-6">Получить консультацию</vs-button>
         </div>
     </div>
-
-
 </template>
 
 <script>
@@ -401,7 +407,6 @@
     import { swiper, swiperSlide } from 'vue-awesome-swiper'
 
     export default {
-        name:"main",
         data() {
             return {
                 name:"",
@@ -518,37 +523,39 @@
         color:#626262;
     }
     .smi .swiper-inner {
-        position: relative;
-        overflow: hidden;
-        height: 480px;
-        padding: 15px;
-        display: flex;
-        justify-content: center;
+        width: 100%;
+        height: 400px;
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
 
-    .smi .swiper-container {
-        width: 450px !important;
-        height: 450px;
-        position: absolute;
-    }
+    /*.smi .swiper-container {*/
+    /*    width: 250px !important;*/
+    /*    height: 250px;*/
+    /*    position: absolute;*/
+    /*}*/
 
     .smi .swiper-slide {
         background-position: center;
         background-size: cover;
+        width: 300px;
+        height: 300px;
     }
     .news .swiper-inner {
         width: 100%;
-        height:530px;
-        padding-top: 50px;
+        height:430px;
         padding-bottom: 50px;
     }
     .news .responsive{
         height: 100%;
+        width: 50%;
+        padding: 3% 5%;
+        border-radius: 200px 5px;
     }
     .news .swiper-slide {
         background-position: center;
         background-size: cover;
-        height: 500px;
+        height: 400px;
     }
     .swiper-text{
         position: absolute;
