@@ -29,14 +29,39 @@
                     <a>&nbsp;С пн-пт, 9:00 - 18:00</a>
                 </div>
             </div>
-            <div class="vx-col w-1/2"></div>
+            <div class="vx-col w-1/2">
+                <div class="map">
+                    <GmapMap
+                        :center="center"
+                        :zoom="15"
+                        map-type-id="terrain"
+                        style="width: 100%; height: 400px">
+                        <GmapMarker
+                            :key="index"
+                            v-for="(m, index) in markers"
+                            :position="m.position"
+                            :clickable="true"
+                            :draggable="true"
+                            @click="center=m.position"
+                        />
+                    </GmapMap>
+                </div>
+            </div>
         </div>
     </div>
 </template>
 
 <script>
     export default {
-        name: "Contacts"
+        name: "Contacts",
+        data() {
+            return {
+                center: { lat: 43.219525, lng: 76.928644 },
+                markers: [
+                    { position: { lat: 43.219525, lng: 76.928644 } },
+                ]
+            }
+        },
     }
 </script>
 
