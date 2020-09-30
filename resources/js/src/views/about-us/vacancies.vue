@@ -116,6 +116,113 @@
 
             </div>
         </div>
+        <div class="actual-vacancies mt-20">
+            <vs-divider color="primary" position="left">
+                <span class="text-3xl">Актуальные вакансии</span>
+            </vs-divider>
+            <div class="vx-row justify-center">
+                <div class="vx-col">
+                    <vs-button color="primary" type="border">Все города</vs-button>
+                </div>
+                <div class="vx-col">
+                    <vs-button color="primary" type="border">Алматы</vs-button>
+                </div>
+                <div class="vx-col">
+                    <vs-button color="primary" type="border">Павлодар</vs-button>
+                </div>
+                <div class="vx-col">
+                    <vs-button color="primary" type="border">Тараз</vs-button>
+                </div>
+                <div class="vx-col">
+                    <vs-button color="primary" type="border">Атырау</vs-button>
+                </div>
+                <div class="vx-col">
+                    <vs-button color="primary" type="border">Костанай</vs-button>
+                </div>
+                <div class="vx-col">
+                    <vs-button color="primary" type="border">Кызылорда</vs-button>
+                </div>
+                <div class="vx-col">
+                    <vs-button color="primary" type="border">Туркестан</vs-button>
+                </div>
+            </div>
+
+            <div class="vx-row cards mt-10">
+                <div class="vx-col w-full mb-base">
+                    <vx-card subtitle-color="dark"  subtitle="Требуется Программист 1С" collapse-action>
+                        <div class="city mt-5  requirement">
+                            <h5 class="title">Алматы</h5>
+                            <p class="info">Требуется Программист 1С</p>
+                        </div>
+                        <div class="exp mt-5 requirement">
+                            <h5 class="title">Опыт работы:</h5>
+                            <p class="info">3–6 лет</p>
+                        </div>
+                        <div class="exp mt-5 requirement">
+                            <h5 class="title">﻿Обязанности:</h5>
+                            <p class="info">Участие в проектах внедрения и поддержки 1С в качестве программиста.
+
+                                Разработка на основании технического задания.
+
+                                Разработка отдельных подсистем как в составе типовых решений 1С, так и нетиповых конфигурациях клиентов, а также разработка дополнительно функционала (внешних печатных форм, отчетов, обработок, механизмов синхронизации между 1С и системой клиента и т.д.)</p>
+                        </div>
+                        <div class="exp mt-5 requirement">
+                            <h5 class="title">Требования</h5>
+                            <p class="info">Опыт работы – от 5 лет и более<br>
+
+                                Опыт участия в проектах внедрения продуктов 1С: Предприятие в качестве программиста.<br>
+
+                                Опыт разработки продуктов на платформе 1С: Предприятие 8<br>
+
+                                Приветствуется знание типовых методик (и практического опыта их применения) внедрения систем, навыки проведения обучения пользователей, стандартов разработки.<br>
+
+                                Умение читать и дорабатывать чужой код.<br>
+
+                                Опыт внедрения учета ценных бумаг приветствуется<br>
+
+                                Опыт внедрения работы в финансовых организациях (страховании) приветствуется</p>
+                        </div>
+                    </vx-card>
+                </div>
+                <div class="vx-col w-full mb-base">
+                    <vx-card subtitle-color="dark"  subtitle="Требуется Программист 1С" collapse-action>
+                        <div class="city mt-5  requirement">
+                            <h5 class="title">Алматы</h5>
+                            <p class="info">Требуется Программист 1С</p>
+                        </div>
+                        <div class="exp mt-5 requirement">
+                            <h5 class="title">Опыт работы:</h5>
+                            <p class="info">3–6 лет</p>
+                        </div>
+                        <div class="exp mt-5 requirement">
+                            <h5 class="title">﻿Обязанности:</h5>
+                            <p class="info">Участие в проектах внедрения и поддержки 1С в качестве программиста.
+
+                                Разработка на основании технического задания.
+
+                                Разработка отдельных подсистем как в составе типовых решений 1С, так и нетиповых конфигурациях клиентов, а также разработка дополнительно функционала (внешних печатных форм, отчетов, обработок, механизмов синхронизации между 1С и системой клиента и т.д.)</p>
+                        </div>
+                        <div class="exp mt-5 requirement">
+                            <h5 class="title">Требования</h5>
+                            <p class="info">Опыт работы – от 5 лет и более<br>
+
+                                Опыт участия в проектах внедрения продуктов 1С: Предприятие в качестве программиста.<br>
+
+                                Опыт разработки продуктов на платформе 1С: Предприятие 8<br>
+
+                                Приветствуется знание типовых методик (и практического опыта их применения) внедрения систем, навыки проведения обучения пользователей, стандартов разработки.<br>
+
+                                Умение читать и дорабатывать чужой код.<br>
+
+                                Опыт внедрения учета ценных бумаг приветствуется<br>
+
+                                Опыт внедрения работы в финансовых организациях (страховании) приветствуется</p>
+                        </div>
+                    </vx-card>
+                </div>
+            </div>
+
+        </div>
     </div>
 </template>
 
